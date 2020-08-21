@@ -1,0 +1,20 @@
+.skills-div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.2em 2em;
+}
+
+.skills-header-div {
+  padding: 10px;
+  margin: -10px;
+  background: var(--clr-accent);
+  color: var(--clr-accent-three);
+  letter-spacing: 3px;
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-secondary);
+  box-shadow: var(--bs);
+}
+
+.skills-body {
+  padding-top: 10px;
+}

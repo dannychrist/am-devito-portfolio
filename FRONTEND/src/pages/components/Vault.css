@@ -1,0 +1,33 @@
+.valt-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.valt-content-div {
+  background: var(--clr-accent);
+  border: 5px solid var(--clr-dark);
+  padding: 30px 40px 40px 40px;
+  border-radius: 20px;
+  box-shadow: var(--bs)
+}
+
+.valt-header {
+  color: var(--clr-accent-three);
+}
+
+#construction-icon {
+  color: var(--clr-accent-three);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-size: 100px;
+  padding: 20px;
+}
+

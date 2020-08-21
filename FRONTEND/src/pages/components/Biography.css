@@ -1,0 +1,21 @@
+.bio-div {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 1.9em 2em;
+}
+
+.bio-header-div {
+  padding: 10px;
+  margin: -10px;
+  background: var(--clr-accent);
+  color: var(--clr-accent-three);
+  font-family: var(--ff-secondary);
+  letter-spacing: 3px;
+  font-weight: var(--fw-bold);
+  box-shadow: var(--bs);
+}
+
+.bio-body {
+  padding-top: 10px;
+}

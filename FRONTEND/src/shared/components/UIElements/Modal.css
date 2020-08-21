@@ -1,0 +1,95 @@
+.modal {
+  z-index: 100;
+  position: fixed;
+  top: 12vh;
+  left: 10%;
+  width: 80%;
+  background: var(--clr-light);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.modal__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.modal__header h2 {
+  color: var(--clr-accent);
+  margin: 0.5rem;
+}
+
+.modal__content {
+  padding-left: 1rem;
+}
+
+.modal__footer {
+  padding: 1rem 0.5rem;
+  font-style: italic;
+  padding-left: 1rem;
+  border-top: 1px solid var(--clr-dark);
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+.modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.git-button,
+.website-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid var(--clr-dark);
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+  font-style: normal;
+}
+
+.git-button:hover,
+.website-button:hover {
+  transform: scale(1.1);
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
